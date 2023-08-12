@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Test text 
+    
+    <svg viewBox="0 0 1000 20" 
+         xmlns="http://www.w3.org/2000/svg">
+            <a href="https://developer.mozilla.org/">
+                <text x="5" y="15">MDN Web Docs</text>
+            </a>
+    </svg>
+
+
+    <!-- Linear Gradient Experiment -->
+    <svg
+  viewBox="0 0 10 10"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="myGradient" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="gold" />
+      <stop offset="95%" stop-color="red" />
+    </linearGradient>
+  </defs>
+
+  <!-- using my linear gradient -->
+  <circle cx="5" cy="5" r="1" fill="url('#myGradient')" />
+</svg>
+
+ 
+      
+</html>
